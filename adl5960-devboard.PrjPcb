@@ -49,13 +49,58 @@ CrossRefFollowFromMainSettings=1
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Document1]
+DocumentPath=adl5960-devboard.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GAXBFKBE
+
 [Parameter1]
-Name=Engineer
-Value=Piotr Pokornowski
+Name=ProjectRevision
+Value=A
 
 [Parameter2]
+Name=ProjectCode
+Value=PP-5960DEV
+
+[Parameter3]
+Name=University
+Value=Politechnika Warszawska
+
+[Parameter4]
+Name=ThesisType
+Value=Praca magisterska
+
+[Parameter5]
 Name=ProjectTitle
 Value=ADL5960 Devboard
+
+[Parameter6]
+Name=ProjectSupervisor
+Value=Dr Inż. Maciej Urbański
+
+[Parameter7]
+Name=ProjectAuthor
+Value=Piotr Pokornowski
+
+[Parameter8]
+Name=Faculty2
+Value=i Technik Informacyjnych
+
+[Parameter9]
+Name=Faculty
+Value=Wydział Elektroniki
 
 [Configuration1]
 Name=Sources
