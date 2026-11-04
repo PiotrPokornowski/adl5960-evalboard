@@ -1,0 +1,14 @@
+# Altium local history and temporary files
+History/
+__Previews/
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+
+# Local project settings
+*.PrjPcb.DsnWrk
+*.PrjPcb.usr
+
+# Generated outputs
+Project\ Outputs*/
+Project\ Logs*/
