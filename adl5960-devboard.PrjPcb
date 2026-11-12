@@ -50,7 +50,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=adl5960-devboard.SchDoc
+DocumentPath=adl5960-devboard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -64,43 +64,60 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=WEPICBDR
+
+[Document2]
+DocumentPath=adl5960-devboard.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
 DocumentUniqueId=GAXBFKBE
 
 [Parameter1]
-Name=ProjectRevision
-Value=A
+Name=Faculty
+Value=Wydział Elektroniki
 
 [Parameter2]
+Name=Faculty2
+Value=i Technik Informacyjnych
+
+[Parameter3]
+Name=ProjectAuthor
+Value=Piotr Pokornowski
+
+[Parameter4]
 Name=ProjectCode
 Value=PP-5960DEV
 
-[Parameter3]
-Name=University
-Value=Politechnika Warszawska
-
-[Parameter4]
-Name=ThesisType
-Value=Praca magisterska
-
 [Parameter5]
-Name=ProjectTitle
-Value=ADL5960 Devboard
+Name=ProjectRevision
+Value=A
 
 [Parameter6]
 Name=ProjectSupervisor
 Value=Dr Inż. Maciej Urbański
 
 [Parameter7]
-Name=ProjectAuthor
-Value=Piotr Pokornowski
+Name=ProjectTitle
+Value=ADL5960 Evalboard
 
 [Parameter8]
-Name=Faculty2
-Value=i Technik Informacyjnych
+Name=ThesisType
+Value=Praca magisterska
 
 [Parameter9]
-Name=Faculty
-Value=Wydział Elektroniki
+Name=University
+Value=Politechnika Warszawska
 
 [Configuration1]
 Name=Sources
@@ -1090,10 +1107,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=altium-libraries.IntLib
+ComponentDesignItemID0=capacitor
+ComponentSymbolReference0=capacitor
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1107,6 +1130,34 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=Dielectric
+ParameterUpdate3=1
+ParameterName4=Library Reference
+ParameterUpdate4=1
+ParameterName5=Manufacturer
+ParameterUpdate5=1
+ParameterName6=Manufacturer Part Number
+ParameterUpdate6=1
+ParameterName7=Tolerance
+ParameterUpdate7=1
+ParameterName8=Value
+ParameterUpdate8=1
+ParameterName9=Voltage Rating
+ParameterUpdate9=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=c-0402
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=c-0603
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
